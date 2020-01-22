@@ -180,7 +180,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #E27689;
+			color: rgba(255, 255, 255, 0.5);
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -333,7 +333,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 50%;
 		}
 
 		.row > .off-4 {
@@ -2176,7 +2176,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #6dd5ed;
 					}
 
 /* Footer */
@@ -2255,8 +2255,8 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #2193b0;  /* fallback for old browsers */
-				background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-				background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+				background: -webkit-linear-gradient(to bottom, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to bottom, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 				;
 				/* background-image: url("../../images/banner.jpg"); */
 			}
