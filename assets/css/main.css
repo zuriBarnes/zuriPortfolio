@@ -83,7 +83,7 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: black;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -107,7 +107,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #2193b0;
+		color: black;
 		line-height: 1.5em;
 	}
 
@@ -143,6 +143,9 @@ input, select, textarea {
 
 		header > p {
 			margin: 1em 0 0 0;
+			line-height: 1.2em;
+			padding: 8px;
+			text-align: left;
 		}
 
 	/* Tech Icon Style */
@@ -1990,8 +1993,9 @@ input, select, textarea {
 	}
 
 		.item header {
-			background: #fff;
-			margin: 0;
+			color: black;
+			background: #48b5d0;
+			margin-bottom: 2em;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
 		}
@@ -2266,7 +2270,7 @@ input, select, textarea {
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: lightblue;
 			}
 
 			#main > section.four {
