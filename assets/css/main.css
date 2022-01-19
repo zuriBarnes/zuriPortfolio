@@ -1859,7 +1859,8 @@ article:last-child {
 
 .image img {
   display: block;
-  width: 100%;
+  width: 300px;
+  margin: 0 auto;
 }
 
 .image.avatar48 {
@@ -2106,6 +2107,8 @@ button:active,
 .item {
   box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
   margin-bottom: 40px;
+  background: #fff;
+  padding: 1em;
 }
 
 .item header {
@@ -2773,5 +2776,8 @@ button:active,
 
   #footer .copyright li:first-child {
     margin-top: 0;
+  }
+  .image img {
+    width: 100%;
   }
 }
