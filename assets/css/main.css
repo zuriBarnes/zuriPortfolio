@@ -254,6 +254,7 @@ header > p {
   line-height: 1.2em;
   padding: 8px;
   text-align: left;
+  margin-bottom: 16px;
 }
 
 /* Tech Icon Style */
@@ -2783,7 +2784,7 @@ button:active,
   color: #fff !important;
   text-decoration: none;
   padding: 0.75em 2.5em 0.75em 2.5em;
-  background-color: #8ebebc;
+  background-color: #3fadc8;
   border: 0;
   cursor: pointer;
   background-image: -moz-linear-gradient(
