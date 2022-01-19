@@ -2109,6 +2109,7 @@ button:active,
   margin-bottom: 40px !important;
   background: #fff;
   padding: 1em;
+  border-radius: 5px;
 }
 
 .item header {
