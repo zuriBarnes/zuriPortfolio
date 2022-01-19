@@ -2781,6 +2781,9 @@ button:active,
   .animated {
     font-size: 1.2em !important;
   }
+  #main section.cover {
+    padding-bottom: 1em;
+}
 }
 .btn {
   border-radius: 0.35em;
@@ -2851,4 +2854,5 @@ article.item:hover {
 }
 .animated {
   font-size: 32px;
+  margin-bottom: 0 !important;
 }
