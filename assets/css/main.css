@@ -2106,7 +2106,7 @@ button:active,
 /* Item */
 
 .item {
-  box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0.05em 0px 2px rgb(0 0 0 / 5%);
   margin-bottom: 40px !important;
   background: #fff;
   padding: 1em;
@@ -2365,6 +2365,7 @@ button:active,
 #main > section.dark strong {
   color: #fff;
   border-color: inherit;
+  font-weight: 600;
 }
 
 #main > section.dark a {
@@ -2397,13 +2398,9 @@ button:active,
   /* background-image: url("../../images/banner.jpg"); */
 }
 
-#main > section.two {
+/* #main > section.two {
   background-color: #f5fafa;
-}
-
-#main > section.four {
-  background-color: #e8edec;
-}
+} */
 
 /* Wide */
 
@@ -2790,7 +2787,7 @@ button:active,
   color: #fff !important;
   text-decoration: none;
   padding: 0.75em 2.5em 0.75em 2.5em;
-  background-color: #3fadc8;
+  background-color: #61dafb;
   border: 0;
   cursor: pointer;
   background-image: -moz-linear-gradient(
@@ -2862,4 +2859,12 @@ p {
 }
 #about > div > div > img {
   width: 262px;
+}
+section#about h2 {
+  color: #61dafb;
+  font-weight: 600;
+}
+section#about {
+  background: #282c34;
+  color: #61dafb;
 }
