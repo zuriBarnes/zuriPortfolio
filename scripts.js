@@ -3,7 +3,12 @@
 const typedTextSpan = document.querySelector(".typed-text");
 
 const cursorSpan = document.querySelector(".cursor");
-const textArray = ["hard", "fun", "a journey", "LIFE"];
+const textArray = [
+  "today's language of creatvity",
+  "an essentail skill",
+  "a journey",
+  "my passion",
+];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000;
