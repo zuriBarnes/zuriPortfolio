@@ -2813,14 +2813,6 @@ article.item:hover {
   box-shadow: 5px 7px 9px rgb(0 0 0 / 20%);
   transition: all ease-out 0.2s;
 }
-.container p {
-  font-size: 32px;
-  font-weight: bold;
-  letter-spacing: 0.1rem;
-  text-align: center;
-  overflow: hidden;
-  padding: 0.5rem;
-}
 .typed-text {
   font-weight: normal;
   color: hotpink;
