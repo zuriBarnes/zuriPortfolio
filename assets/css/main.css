@@ -2860,3 +2860,6 @@ article.item:hover {
 p {
   font-size: 18px;
 }
+#about > div > div > img {
+  width: 262px;
+}
