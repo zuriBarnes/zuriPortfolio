@@ -2241,7 +2241,7 @@ button:active,
   position: relative;
   display: block;
   font-size: 0.6em;
-  color: rgba(255, 255, 255, 0.5);
+  color: hotpink;
   line-height: 1.25em;
   margin: 0.5em 0 0 0;
 }
@@ -2297,7 +2297,7 @@ button:active,
 }
 
 #nav ul li a.active span:before {
-  color: hotpink;
+  color: #61dafb;
 }
 
 /* Footer */
