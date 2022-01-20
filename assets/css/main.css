@@ -2857,14 +2857,18 @@ p {
 #about > div > div > img {
   width: 262px;
 }
-section#about h2 {
+#about h2 {
   color: #61dafb;
   font-weight: 600;
 }
-section#about {
+#about {
   background: #282c34;
   color: #61dafb;
 }
 .copyright p {
   color: #fff;
+}
+#contact {
+  max-width: 600px;
+  margin: 0 auto;
 }
