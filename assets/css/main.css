@@ -2849,6 +2849,7 @@ article.item:hover {
 }
 .animated {
   font-size: 32px;
+  font-weight: 500;
   margin-bottom: 0 !important;
 }
 .project-info {
