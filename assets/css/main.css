@@ -2116,7 +2116,7 @@ button:active,
 }
 
 .item header h3 {
-  font-size: 1em;
+  font-size: 20px;
 }
 
 /* Icons */
@@ -2763,9 +2763,9 @@ button:active,
   #footer .copyright li:first-child {
     margin-top: 0;
   }
-  .image img {
+  /* .image img {
     width: 100%;
-  }
+  } */
   .animated {
     font-size: 1.2em !important;
   }
@@ -2865,4 +2865,14 @@ p {
 #contact {
   max-width: 600px;
   margin: 0 auto !important;
+}
+.image.fit img {
+  aspect-ratio: 16/9;
+}
+img {
+  height: auto;
+  width: 100%;
+}
+.icon-box img {
+  aspect-ratio: 1 / 1;
 }
