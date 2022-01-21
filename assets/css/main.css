@@ -362,8 +362,8 @@ br.clear {
 }
 
 @media screen and (max-width: 736px) {
-  .container {
-    width: 100%;
+  #top > div > header > div {
+    margin: 5em 0;
   }
 }
 
@@ -2747,7 +2747,7 @@ button:active,
   }
 
   #main section.cover header {
-    padding: 0 1em;
+    margin-top: 18vh;
   }
 
   /* Footer */
@@ -2771,9 +2771,6 @@ button:active,
   }
   #main section.cover {
     padding-bottom: 1em;
-  }
-  .container {
-    margin: 5em 0;
   }
   #main section.cover {
     padding-bottom: 1em;
